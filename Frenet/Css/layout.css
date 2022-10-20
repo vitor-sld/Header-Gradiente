@@ -1,0 +1,123 @@
+/*
+CORES
+AZUL ESCURO - #29357F
+AZUL MÉDIO DEGRADÊ - #186CB4
+AZUL MÉDIO DEGRADÊ - #05A4E6
+AZUL CLARO LOGO(PRINCIPAL) - #08ADF1
+LARANJA - #FE6610
+BRANCO - #FFFFFF
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 115vh;
+    background-image: linear-gradient(to right, #29357F , #05A4E6);
+    
+}
+header::after{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 120px 1920px;
+    border-color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    padding-top: 30px;
+}
+header nav div#nav-master{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav div ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+header nav div ul li{
+    margin: 15px 15px 15px;
+}
+
+header nav div#logo{
+    background-image: url(../imagem/logo-FavCom.png);
+    width: 75px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+header nav  a#btn-criarConta{
+background-color: white;
+padding: 12.5px 15px;
+border-radius: 5px;
+}
+part-total-header{
+    display: flex;
+    flex-grow: row wrap;
+}
+header div#part1-header {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 85%;
+    display: flex;
+
+}
+header div#part1-header div#esquerda h1{
+    margin-bottom:20px;
+}
+header div#part1-header div#esquerda p{
+    margin-bottom:80px;
+}
+header div#part1-header div#esquerda a#btn-CriarConta-txt{
+    padding: 15px 60px;
+    background-color: #FE6610;
+    border-radius: 5px;
+}
+header div#part1-header ul{
+    margin-top: 40px;
+}
+header div#part1-header div.check-li-header{
+    background-image: url(../imagem/checkmark-circle-outline.svg);
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+header div#part1-header div#esquerda li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    
+}
+header div#part1-header div#direita{
+width: 50%;
+position: relative;
+}
+
+header div#part1-header div#direita img{
+    position: absolute;
+    top: -10%;
+    left: 20px;
+    width: 80%;
+}
+
+

@@ -1,0 +1,49 @@
+/*
+*********FONTE PRINCIPAL**********
+font-family: 'Roboto', sans-serif;
+*/
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+p, li, a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+header nav div ul{
+    list-style: none;
+}
+header nav div ul a{
+    font-size: 100%;
+    font-weight: 500;
+    color: white;
+   
+}
+header nav  a#btn-criarConta{
+color: #337fc1;
+font-weight: 500;
+}
+header div#part1-header h1{
+    font-size: 390%;
+    font-weight: 700;
+    text-align: justify;
+    color: white;
+}
+header div#part1-header p{
+    font-size: 115%;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+}
+header div#part1-header a{
+    font-size: 120%;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+header div#part1-header li{
+    color: white;
+    padding-top: 15px;
+}
